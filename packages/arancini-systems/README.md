@@ -99,7 +99,7 @@ class CameraRigSystem extends System<Entity> {
   camera = this.singleton("camera", { required: true });
 
   onUpdate() {
-    console.log(camera);
+    console.log(this.camera);
   }
 }
 ```
